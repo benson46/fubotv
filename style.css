@@ -40,20 +40,13 @@
   box-shadow: none;
 }
 
-#navbarNav ul {
-  background-color: white;
-}
 
 ul a {
   text-align: center;
   color: rgb(102, 102, 102);
   font-family: Qanelas600;
   cursor: pointer;
-}
-
-.nav-linik {
   font-size: 19px;
-  font-family: Qanelas700;
 }
 
 
@@ -78,7 +71,7 @@ ul a {
 }
 
 .card {
-  background-color: transparent;
+  background-color: transparent; /* card normaly have a white background to remove it use transparent */
 }
 
 
@@ -175,6 +168,7 @@ ul a {
 .circle-pic {
   width: 100%;
 }
+
 #section-3-text {
   max-width: 700px;
   margin: 0px auto;
@@ -244,11 +238,7 @@ ul a {
   color: rgb(184, 184, 184);
   font-family: Qanelas700;
   list-style-type: none;
-  text-decoration: none; 
+  text-decoration-line: none; 
   color: rgb(184, 184, 184);
-}
-.container-fluid li{
-  list-style-type: none;
- 
 }
 

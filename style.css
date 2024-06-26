@@ -1,0 +1,254 @@
+/* ----------------------------------FONT LINKING---------------------------------- */
+
+@font-face {
+  font-family: Qanelas700;
+  font-display: swap;
+  font-weight: 700;
+  src: url(fonts/34A12F_2_0.woff2);
+}
+
+@font-face {
+  font-family: Qanelas600;
+  font-display: swap;
+  font-weight: 600;
+  src: url(fonts/34A12F_3_0.woff2);
+}
+
+@font-face {
+  font-family: Qanelas500;
+  font-display: swap;
+  font-weight: 500;
+  src: url(fonts/34A12F_4_0.woff2);
+}
+
+
+/* ----------------------------------HEADER SECTION---------------------------------- */
+
+.inside-head-div {
+  max-width: 1200px;
+}
+
+.header-image {
+  height: 72px;
+}
+
+.navbar-toggler-btn {
+  border: none;
+}
+
+.navbar-toggler-btn:focus {
+  box-shadow: none;
+}
+
+#navbarNav ul {
+  background-color: white;
+}
+
+ul a {
+  text-align: center;
+  color: rgb(102, 102, 102);
+  font-family: Qanelas600;
+  cursor: pointer;
+}
+
+.nav-linik {
+  font-size: 19px;
+  font-family: Qanelas700;
+}
+
+
+/* ----------------------------------MAIN---------------------------------- */
+
+/* ------------------SECTION-1------------------ */
+
+
+#section-1 {
+  width: 100%;
+  height: auto;
+}
+
+.section1-background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/section-bg.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.card {
+  background-color: transparent;
+}
+
+
+#about-us {
+  font-family: Qanelas500;
+}
+
+.card p {
+  font-family: Qanelas500;
+}
+
+.section1-content {
+  padding: 82px 10px;
+}
+
+.card-body h2 {
+  font-size: 41px;
+  font-family: s1;
+  color: white;
+  margin-top: -8px;
+
+}
+
+.section1-image {
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.section1-image img {
+  width: 100%;
+}
+
+.card-text {
+  color: white;
+  line-height: 40px;
+}
+
+
+/* ------------------SECTION-2------------------ */
+
+#section-2-container {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(174deg, rgb(250, 70, 22) 0%, rgb(114, 30, 78) 100%);
+}
+
+#mission {
+  font-family: Qanelas700;
+  margin-top: 85px;
+}
+
+#section-2-inner-container p{
+  font-family: Qanelas500;
+}
+
+#video-container {
+  margin: 10px auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+#section-2-video {
+  width: 100%;
+}
+
+/* ------------------SECTION-3------------------ */
+
+#section-3 {
+  width: 100%;
+}
+
+#section-3-container {
+  padding: 80px 20px;
+  width: 100%;
+}
+
+#section-3-inner-container {
+  margin: 0px auto;
+  max-width: 1000px;
+
+}
+
+#culture {
+  font-size: 41px;
+  font-family: Qanelas700;
+  font-weight: 700;
+}
+
+.culture-image {
+  padding: 20px;
+}
+
+
+.circle-pic {
+  width: 100%;
+}
+#section-3-text {
+  max-width: 700px;
+  margin: 0px auto;
+  font-size: 19.2px;
+  font-family: Qanelas500;
+  line-height: 1.8;
+}
+
+
+/* ------------------SECTION-4------------------ */
+
+#section-4 {
+  width: 100%;
+  background: rgb(0, 0, 0);
+}
+
+#section-4-container {
+  padding: 80px 20px;
+  position: relative;
+}
+
+#contact-us {
+  font-family: Qanelas700;
+  font-size: 41px;
+}
+
+#section-4-content {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.link h4 {
+  color: white;
+  font-size: 32px;
+  font-family: Qanelas500;
+}
+
+.link {
+  margin: 0 0 4px;
+
+}
+
+.link-section {
+  gap: 52px 0px;
+}
+
+.link span {
+  font-size: 1.2rem;
+  color: rgb(137, 137, 137);
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background: rgb(47, 50, 51);
+}
+
+.container-fluid .sp{
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+  font-family: Qanelas700;
+}
+.container-fluid span a{
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+  font-family: Qanelas700;
+  list-style-type: none;
+  text-decoration: none; 
+  color: rgb(184, 184, 184);
+}
+.container-fluid li{
+  list-style-type: none;
+ 
+}
+
